@@ -19,7 +19,9 @@ function MoviePoster({ poster }) {
 
 Movie.propTypes = {
     title: PropTypes.string.isRequired,
-    poster: PropTypes.string.isRequired
+    poster: PropTypes.string.isRequired,
+    genres: PropTypes.string.isRequired,
+    synopsis: PropTypes.string.isRequired
 }
 
 MoviePoster.propTypes = {
