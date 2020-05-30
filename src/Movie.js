@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Movie.css'
+import LinesEllipsis from 'react-lines-ellipsis';
+import './Movie.css';
 
 function Movie({ title, poster, genres, synopsis }) {
     return (
         <div className="Movie">
-            <div className="Movie_Columns">
+            <div className="Movie_Column">
                 <MoviePoster poster={poster} alt={title} />
 
             </div>
-            <div className="Movie_Columns">
+            <div className="Movie_Column">
                 <h1>{title}</h1>
                 <div className="Movie_Genres">
                     {genres.map((genre, index) => <MovieGenre genre={genre} key={index} />)}

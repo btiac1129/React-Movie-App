@@ -32,6 +32,11 @@
     margin-bottom: 20px;
 }
 
+.Movie__Genres .Movie__Genre {
+    margin-right: 10px;
+    color: #B4B5BD;
+}
+
 .Movie .Movie_Synopsis {
     text-overflow: ellipsis;
     color: #B4B5BD;
