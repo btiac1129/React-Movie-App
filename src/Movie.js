@@ -11,7 +11,6 @@ function Movie({ title, poster }) {
     );
 }
 
-//same but, dumb component - because don't have 'state', so stateless.
 function MoviePoster({ poster }) {
     return (
         <img src={poster} alt="Movie Poster" />
@@ -23,8 +22,6 @@ Movie.propTypes = {
     poster: PropTypes.string.isRequired
 }
 
-
-// how check prop types of the component?
 MoviePoster.propTypes = {
     poster: PropTypes.string.isRequired
 }
